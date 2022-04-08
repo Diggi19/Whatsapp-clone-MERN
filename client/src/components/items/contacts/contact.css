@@ -1,0 +1,54 @@
+.contact__container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: .5em 0em .5em 0em ;
+    cursor: pointer;
+}
+.contact__container:hover{
+    background-color: rgba(228, 225, 225, 0.425);
+    cursor: pointer;
+}
+.contact__container:focus{
+    background-color: rgba(228, 225, 225, 0.425);
+    cursor: pointer;
+}
+.contact__container a{
+    text-decoration: none;
+    color: black;
+}
+.contact__info{
+    display: flex;
+    align-items: center;
+}
+.contact__avatar{
+    margin-left: 1em;
+}
+.contact__sideinfo{
+    display: flex;
+    flex-direction: column;
+}
+.contact__username{
+    margin-bottom: -2em;
+    margin-left: .5em;
+    font-weight: bold;
+}
+.contact__last{
+    margin-top: -.7em;
+    margin-left: .5em;
+    text-align: left;
+    color: grey;
+    font-size: .9rem;
+}
+.contact__btn{
+    margin-right: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delete__icon{
+    color: grey;
+    margin-top: .3em;
+}

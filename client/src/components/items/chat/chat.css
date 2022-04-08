@@ -1,0 +1,134 @@
+.chat__container{
+    width: 100%;
+    height: 650px;
+    background-image: url(https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png);
+
+
+}
+.chat__header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 191, 165);
+    color: white;
+    font-weight: bold;
+}
+.chat__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+}
+.chat__username{
+    margin-left: .5em;
+}
+.chat__btn{
+    margin-right: 1em;
+}
+
+
+.chat__area{
+    width: 100%;
+    height: 540px;
+}
+.chat__scrollchats{
+    width: 100%;
+    height: 550px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+.chat__scrollchats::-webkit-scrollbar{
+    width: 2px;
+    background-color: white;
+}
+.chat__scrollchats::-webkit-scrollbar-button{
+    display: none;
+}
+.chat__scrollchats::-webkit-scrollbar-thumb{
+    width: 2px;
+    background-color: rgba(175, 173, 173, 0.541);
+}
+
+.chat__field{
+    width: 98%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: .8em;
+    background-color: rgba(121, 119, 119, 0.589);
+    border-radius: 1em;
+    
+}
+.chat__emojiicon{
+    color: rgb(212, 208, 208);
+    padding: .1em;
+    margin-left: 1em;
+    margin-right: .4em;
+}
+.chat__emojiicon:hover{
+    color: rgb(235, 230, 230);
+}
+.chat__textfield{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.textfield__holder{
+    width: 100%;
+}
+.textfield{
+    width: 100%;
+}
+.textfield input{
+    color: white;
+    margin-left: .5em;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.chat__textfield::placeholder{
+    color: rgb(212, 208, 208);
+}
+
+.attachicon,.cameraicon,.sendicon{
+    color: rgb(212, 208, 208);
+    margin-left: .3em;
+    cursor: pointer;
+
+}
+.attachicon:hover,.cameraicon:hover,.sendicon:hover{
+    color: rgb(235, 230, 230);
+    margin-left: .3em;
+    cursor: pointer;
+
+}
+
+.send__btn{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+}
+
+.chat__create{
+    cursor: pointer;
+}
+.chat__create:hover{
+    color: rgb(71, 70, 70);
+}
+.chat__backbtn{
+    color: grey;
+}
+.chat__userinfo{
+    margin-left: .5em;
+    text-align: left;
+}
+.chat__userinfo h3{
+    margin-bottom: 0em;
+    margin-left: -.5em;
+}
+.chat__userinfo h4{
+    margin-top: .5em;
+    font-size: .8rem;
+}

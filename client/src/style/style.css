@@ -1,0 +1,98 @@
+body{
+    margin: 0%;
+    background-color: rgb(218, 220, 213);
+
+}
+.app__container{
+    width: 70%;
+    height: 650px;
+
+    margin: 2em auto auto auto;
+    background-color: rgba(255, 255, 255, 0.836);
+    border: none;
+    border-radius: .3em;
+    box-shadow: -2px 4px 10px 5px rgba(170, 169, 169, 0.89);
+
+}
+.app__body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.app__bodysignin{
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.app__sidebar{
+    width: 35%;
+    height: 650px;
+}
+.app__chat{
+    width: 65%;
+    height: 650px;
+    border-left: 1px solid rgba(179, 178, 178, 0.774);
+}
+.app__nochat{
+    width: 65%;
+    height: 650px;
+    border-left: 1px solid rgba(179, 178, 178, 0.774);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(237, 237, 237);
+}
+.action__img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action__img img{
+    width: 200px;
+    height: 200px;
+    
+}
+.alert__msg{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(87, 85, 85);
+}
+
+.action__msg{
+    font-weight: 900;
+}
+.separation{
+    width: 80%;
+    height: 0px;
+    margin-top: 1em;
+    background-color: rgba(207, 204, 204, 0.877);
+    border: 1px solid rgba(207, 204, 204, 0.877);
+}
+.app__logincontainer{
+    width: 25%;
+    height: 10%;
+
+    margin: 6em auto auto auto;
+    background-color: rgba(255, 255, 255, 0.836);
+    border: none;
+    border-radius: .3em;
+    box-shadow: -2px 4px 10px 5px rgba(170, 169, 169, 0.89);
+}
+.app__login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;   
+}
